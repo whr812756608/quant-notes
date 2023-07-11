@@ -6,9 +6,10 @@ A short list of resources and topics covering the essential quantitative tools f
 
 At a high-level we can divide things into 3 main areas:
 
-1. [Machine Learning]
+1. Machine Learning
 2. Coding
 3. Math (calculus, linear algebra, probability, etc)
+4. [Linear Regression](Linear Regression/README.md)
 
 Depending on the type of roles, the emphasis can be quite different. For example, AI/ML interviews might go deeper into the latest deep learning models, while quant interviews might cast a wide net on various kinds of math puzzles. Interviews for research-oriented roles might be lighter on coding problems or at least emphasize on algorithms instead of software designs or tooling.
 

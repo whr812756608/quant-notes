@@ -56,6 +56,11 @@ Fix when
 
 Dropping variables should be an iterative process starting with the variable having the largest VIF
 
+**How does Ridge regression(modifying X’X) eliminate multicollinearity?**
+When there is multicollinearity, the columns of a correlation matrix are not independent of one another. This is a problem, because a matrix with non-independent columns has a determinant of 0. Therefore, the dependencies between columns must be broken so the inverse of X’X can be calculated. Adding a positive value k to the diagonal elements of X’X will break up any dependency between these columns. This will also cause the estimated regression coefficients to shrink toward the null; the higher the value of k, the greater the shrinkage. The intercept is the only coefficient that is not penalized in this way.
+
+
+
 ### Autocorrelation/Serial Correlation
 **Effect**
 residual not iid distributed

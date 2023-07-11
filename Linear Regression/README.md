@@ -56,7 +56,7 @@ Fix when
 
 Dropping variables should be an iterative process starting with the variable having the largest VIF
 
-**How does Ridge regression(modifying X’X) eliminate multicollinearity?**
+**How does Ridge regression(modifying X’X + $\lambda$ I) eliminate multicollinearity?**
 - When there is multicollinearity, the columns of a correlation matrix are not independent of one another.
 - This is a problem, because a matrix with non-independent columns has a determinant of 0.
 - Therefore, the dependencies between columns must be broken so the inverse of X’X can be calculated.

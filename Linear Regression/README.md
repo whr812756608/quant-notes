@@ -8,8 +8,8 @@
 3. Random sampling following linear relationship
 4. Full Rank or no/little colinearity among x variables
 5. Exogeneity of x variables to residuals: Zero condition mean
-6. Homoscedasticity residuals
-7. Normal distributed residuals
+6. **Homoscedasticity** constant variance of the errors (residuals)
+7. **Normalilty** of error(residuals) distribution
 
 Unbiased use first 4
 BLUE use first 5

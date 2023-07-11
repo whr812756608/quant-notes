@@ -6,7 +6,7 @@ A short list of resources and topics covering the essential quantitative tools f
 
 At a high-level we can divide things into 3 main areas:
 
-1. Machine Learning
+1. [Machine Learning]
 2. Coding
 3. Math (calculus, linear algebra, probability, etc)
 
@@ -17,9 +17,7 @@ Depending on the type of roles, the emphasis can be quite different. For example
 
 A minimalist list of the best/most practical ones:
 
-![](cs229.png)
-![](mit6006.jpg)
-![](stats110.jpg)
+Linear Regression
 
 Machine Learning:
 

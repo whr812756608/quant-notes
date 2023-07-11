@@ -1,12 +1,15 @@
 
 ----
 # Assumptions
-1. Linearity
-2. Random sampling following linear relationship
-3. Full Rank or no/little colinearity among x variables
-4. Exogeneity of x variables to residuals: Zero condition mean
-5. Homoscedasticity residuals
-6. Normal distributed residuals
+1. **Linearity** of the relationship between dependent and independent variables
+    - The expected value of dependent variable is a straight-line function of each independent variable, holding the others fixed.
+    - The slope of that line does not depend on the values of the other variables.
+    - The effects of different independent variables on the expected value of the dependent variable are additive.
+3. Random sampling following linear relationship
+4. Full Rank or no/little colinearity among x variables
+5. Exogeneity of x variables to residuals: Zero condition mean
+6. Homoscedasticity residuals
+7. Normal distributed residuals
 
 Unbiased use first 4
 BLUE use first 5

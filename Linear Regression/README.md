@@ -6,8 +6,8 @@
     - The slope of that line does not depend on the values of the other variables.
     - The effects of different independent variables on the expected value of the dependent variable are additive.
 3. Random sampling following linear relationship
-4. Full Rank or no/little colinearity among x variables
-5. Exogeneity of x variables to residuals: Zero condition mean
+4. Full Rank or no/little **colinearity** among x variables
+5. **Exogeneity** of x variables to residuals: Zero condition mean
 6. **Homoscedasticity** constant variance of the errors (residuals)
 7. **Normalilty** of error(residuals) distribution
 

@@ -2,7 +2,7 @@
 - 
 - OLS with y ~ x, how does high autocorrelation affect the coefficients for x and how does it affect the t statistics? (Point72)
 - 
-- If the regression coefficient b of y~bx equals to 1, what's the range of the regression coefficient c of x~cy? (Squarepoint)
+- If the regression coefficient b of y \~bx equals to 1, what's the range of the regression coefficient c of x\~cy? (Squarepoint)
 - 
 - How to do weighted lasso regression? (2sigma)
 - 

@@ -1,5 +1,9 @@
 - OLS with y ~ x1 + x2, the goodness of fit is very good, but the significance for the regression coefficient of both x1 and x2 are not good. What could be the cause and how to deal with it? (Pont72)
+- 
 - OLS with y ~ x, how does high autocorrelation affect the coefficients for x and how does it affect the t statistics? (Point72)
+- 
 - If the regression coefficient b of y~bx equals to 1, what's the range of the regression coefficient c of x~cy? (Squarepoint)
+- 
 - How to do weighted lasso regression? (2sigma)
+- 
 - x1 and x2 are uncorrelated and having zero mean. We calculate the regression coefficients y-x1 ~ b'2 * x2 and y-x2 ~ b'1 * x1. Also we calculate the regression coefficients using the regular way y ~ b1 * x1 and y ~ b2 * x2. How are the coefficients (b1, b2) related to the coefficients (b'1, b'2)? (2sigma)

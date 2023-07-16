@@ -50,11 +50,11 @@ correlation matrix (Pearson correlation)
 check eigenvalues
 
 **Fix**
-Fix when
+- Fix when
 1. you care more about how much each individual feature rather than a group of features affects the target variable
 2. features/variables you are interested in
 
-Dropping variables should be an iterative process starting with the variable having the largest VIF
+- Dropping variables should be an iterative process starting with the variable having the largest VIF
 
 **How does Ridge regression(modifying X’X + $\lambda$ I) eliminate multicollinearity?**
 - When there is multicollinearity, the columns of a correlation matrix are not independent of one another.
@@ -93,6 +93,7 @@ ARIMA
 
 **Effect**
 
+-   The variance of the errors is **not** constant across all levels of the independent variables.
 -   The OLS estimators and regression predictions based on them remains **unbiased** and consistent, but less precise (variance increase and smaller p-values)
 -   The OLS estimators are no longer the BLUE (Best Linear Unbiased Estimators) because they are no longer efficient, so the regression predictions will be inefficient too.
 - give too much weight to a small subset of the data (namely the subset where the error variance was largest) when estimating coefficients

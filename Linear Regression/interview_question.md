@@ -2,7 +2,7 @@
 - Simple linear regression y = beta1*x1+b1, adding feature x2, get bivariate regression y = beta1*x1 + beta2*x2 + b2, how would the variance of beta1 change?
   
 - Here is the regression: y=1+x1+x2. If x1 and x2 are correlated, we just want to measure the impact of x2 on y, how should we do?
-  - (first regress x2 on x1 get the residual, and regress y on x1 and residual)
+  - **Solution:** first regress x2 on x1 get the residual, and regress y on x1 and residual
   
 - OLS with y ~ x1 + x2, the goodness of fit is very good, but the significance for the regression coefficient of both x1 and x2 are not good. What could be the cause and how to deal with it? (Pont72)
   
@@ -24,17 +24,19 @@
 - What are the Bayesian interpretation of Ridge and Lesso regression?
   
 - How to use a blackbox that can do vanilla regression to do Ridge regression?
+    - Adding a random unit noise with $\sqrt \lambda $
+    - (http://madrury.github.io/jekyll/update/statistics/2017/08/12/noisy-regression.html)
 
 - In ridge regression, if m copies of a variable x are included, what will happen to the coefficient?
   
 - What is the solution for ridge regression? If we have perfect co-linearity, what will ridge regression return?
-- 
+  
 - What is the difference between ridge and lasso? When should we use ridge and when should we use lasso? Why?
   
 - The bias and variance of ridge and lasso.
 
 - Why does the shrinkage method perform better than OLS?
-- 
+  
 - Do we include the intercept term in ridge/lasso regression? Why?
 
 

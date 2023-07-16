@@ -18,7 +18,7 @@
 
 - Show OLS estimate is MLE under certain assumptions
   - [回字的四种写法——从线性回归到贝叶斯线性回归](https://zhuanlan.zhihu.com/p/86009986)
-  - <img src= "baysian.png" alt="Figure" width="800" height="500">
+  - <img src="baysian.png" alt="Figure" width="800" height="500">
 - OLS is BLUE assumtions
    - Guassian- Markov
 

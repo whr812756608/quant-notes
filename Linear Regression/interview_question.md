@@ -1,4 +1,5 @@
 # OLS
+
 - If we duplicate the dataset, how will the beta change? How will the t-stats change? And why? If we want to get the correct t-stats, what should we do?
   -
   

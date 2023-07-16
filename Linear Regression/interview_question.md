@@ -27,7 +27,10 @@
 # Ridge and Lasso
 - What are the Bayesian interpretation of Ridge and Lesso regression?
   - (https://ekamperi.github.io/mathematics/2020/08/02/bayesian-connection-to-lasso-and-ridge-regression.html)
-  
+    
+- What is the prior distribution of beta for ridge regression and lasso regression?
+     Ridge is Gaussian lasso is double exp distribution
+
 - How to use a blackbox that can do vanilla regression to do Ridge regression?
     - Adding a random unit noise with $\sqrt \lambda $
     - (http://madrury.github.io/jekyll/update/statistics/2017/08/12/noisy-regression.html)
@@ -35,6 +38,7 @@
 - In ridge regression, if m copies of a variable x are included, what will happen to the coefficient?
   
 - What is the solution for ridge regression? If we have perfect co-linearity, what will ridge regression return?
+  - 
   
 - What is the difference between ridge and lasso? When should we use ridge and when should we use lasso? Why?
   

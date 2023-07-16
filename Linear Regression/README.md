@@ -8,7 +8,7 @@
 3. Random sampling following linear relationship
 4. **Full Rank** or no/little **Muticolinearity** among x variables
 5. **Exogeneity** of x variables to residuals: Zero condition mean
-6. **Homoscedasticity** constant variance of the errors (residuals)
+6. **Homoscedasticity** constant variance of the errors (residuals) - epsilon term  $\epsilon$ 
 7. **Normalilty** of error(residuals) distribution
 
 - Unbiased use first 4

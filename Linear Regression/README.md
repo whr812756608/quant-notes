@@ -10,7 +10,8 @@
 5. **Exogeneity** of x variables to errors (residuals)s: Zero condition mean
 	- $E[\epsilon|x] = 0 $ 	 	
 7. **Homoscedasticity** constant variance of the errors (residuals)
-	- $\text{Var}(\epsilon | x)$ = $E[\epsilon_i \epsilon_j | X]$ = $\sigma^2$
+	- $\text{Var}(\epsilon | X) = E[\epsilon_i \epsilon_j | X] = \sigma^2$
+	- $\text{Cov}(\epsilon_i , \epsilon_j) = 0$
 9. **Normalilty** of error(residuals) distribution
 
 - Unbiased use first 4

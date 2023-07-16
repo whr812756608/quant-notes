@@ -2,7 +2,7 @@
 - Simple linear regression y = beta1*x1+b1, adding feature x2, get bivariate regression y = beta1*x1 + beta2*x2 + b2, how would the variance of beta1 change?
   
 - Here is the regression: y=1+x1+x2. If x1 and x2 are correlated, we just want to measure the impact of x2 on y, how should we do?
-  - **Solution:** first regress x2 on x1 get the residual, and regress y on x1 and residual
+  - first regress x2 on x1 get the residual, and regress y on x1 and residual
   
 - OLS with y ~ x1 + x2, the goodness of fit is very good, but the significance for the regression coefficient of both x1 and x2 are not good. What could be the cause and how to deal with it? (Pont72)
   

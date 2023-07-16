@@ -8,7 +8,7 @@
   
 - OLS with y ~ x, how does high autocorrelation affect the coefficients for x and how does it affect the t statistics? (Point72)
 
-- 
+   - The estimated variance of the regression coefficients will be greater than the variances of estimate calculated by other methods.     Therefore, hypothesis testing is no longer valid. In most of the cases, $R^2$ will be overestimated (indicating a better fit than the one that truly exists). The t- statistics will tend to be higher.
 
 - If the regression coefficient b of y \~bx equals to 1, what's the range of the regression coefficient c of x\~cy? (Squarepoint)
   

@@ -136,6 +136,7 @@ check outliers/extreme values (are they valid)
 **Solve for** $X\beta = Y$
 - Inverse Matrix $\hat{\beta} = (X^TX)^{-1}X^T Y$
 	- variance-covariance $\hat{\beta}=\frac{\sum x y}{\sum x^2}$ using parallel computation
+ 	- $\hat{\beta} = \frac{Cov(X,Y)}{Var(x)} = \rho \frac{\sigma_y}{\sigma_x}$
 - LU Decomposition: $X\beta = LU\beta = Y \Rightarrow Ux = A, LA = Y$
 - SVD Decomposition $X = U \Sigma V^T$  and  $(X^TX)^{-1}X^T = V\Sigma^{-1}U^T$
 

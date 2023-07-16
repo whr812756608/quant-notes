@@ -18,7 +18,7 @@
 
 - Show OLS estimate is MLE under certain assumptions
   - [Maximum Likelihood Estimation]
-  - <img src= "baysian.png" alt="Figure" width="600" height="500">
+  - <img src= "baysian.png" alt="Figure" width="800" height="500">
 - OLS is BLUE assumtions
    - Guassian- Markov
 

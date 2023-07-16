@@ -11,9 +11,9 @@
 6. **Homoscedasticity** constant variance of the errors (residuals)
 7. **Normalilty** of error(residuals) distribution
 
-Unbiased use first 4
-BLUE use first 5
-t-test for beta uses 6th
+- Unbiased use first 4
+- BLUE use first 5
+- t-test for beta uses 6th
 
 ## Test Assumptions/Violation Effect/Remediation
 https://people.duke.edu/~rnau/testing.htm

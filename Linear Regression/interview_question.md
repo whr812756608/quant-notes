@@ -41,7 +41,8 @@
   - $\hat{\beta} = (X^TX + \lambda I)^{-1}X^T Y$ 
   
 - What is the difference between ridge and lasso? When should we use ridge and when should we use lasso? Why?
-    - [Lasso回归算法] (https://blog.csdn.net/sai_simon/article/details/122359015?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-4-122359015-blog-120807768.235^v38^pc_relevant_anti_t3_base&spm=1001.2101.3001.4242.3&utm_relevant_index=7)
+    - [Lasso回归算法](https://blog.csdn.net/sai_simon/article/details/122359015?spm=1001.2014.3001.5502)
+    - [岭回归算法](https://blog.csdn.net/sai_simon/article/details/122337097?spm=1001.2014.3001.5502)
   
 - The bias and variance of ridge and lasso.
 

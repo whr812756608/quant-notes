@@ -26,6 +26,7 @@
 
 # Ridge and Lasso
 - What are the Bayesian interpretation of Ridge and Lesso regression?
+  - (https://ekamperi.github.io/mathematics/2020/08/02/bayesian-connection-to-lasso-and-ridge-regression.html)
   
 - How to use a blackbox that can do vanilla regression to do Ridge regression?
     - Adding a random unit noise with $\sqrt \lambda $

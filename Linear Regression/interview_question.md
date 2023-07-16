@@ -1,11 +1,15 @@
 # OLS
-
 - If we duplicate the dataset, how will the beta change? How will the t-stats change? And why? If we want to get the correct t-stats, what should we do?
-  -
-  
+  - beta unchange $\hat{\beta} = (X^TX )^{-1}X^T Y$ 
+  - Var(beta) decrease thus Standard deviation(beta) decrease because duplication artificially inflates the sample size, making it appear     as if we have more information than we actually do.
+  - t-statsitc = $\frac{beta}{Standard \ deviation}$, increase
+  - increasing the chance of incorrectly rejecting the null hypothesis (Type I error).
+  - t-statsitc increase, p-value decrease
+  - To get correct t-statistics after duplicating the dataset, you could adjust the degrees of freedom used in your calculations to reflect the true sample size.
+    
 - If the variance of the error term is different for each dataset, can we get the correct beta? Can we get the correct t-stat? And if we cannot, how can we get the correct beta and t-stat?
   - Heteroscedasticity--GRACH
-  - 
+  - GLS, WLS
 
 - If there is a noise in x, and we can only observe x’=x+noise, the noise is unrelated with x, how will the beta change? What if the noise if in y, we can only observe y’= y+noise?
   

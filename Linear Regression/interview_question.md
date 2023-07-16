@@ -1,8 +1,10 @@
 # OLS
 - If we duplicate the dataset, how will the beta change? How will the t-stats change? And why? If we want to get the correct t-stats, what should we do?
   -
+  
 - If the variance of the error term is different for each dataset, can we get the correct beta? Can we get the correct t-stat? And if we cannot, how can we get the correct beta and t-stat?
-  - Hetero   
+  - Heteroscedasticity--GRACH
+  - 
 
 - If there is a noise in x, and we can only observe x’=x+noise, the noise is unrelated with x, how will the beta change? What if the noise if in y, we can only observe y’= y+noise?
   

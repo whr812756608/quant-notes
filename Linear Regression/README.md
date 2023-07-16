@@ -13,7 +13,7 @@
 	- $\text{Var}(\epsilon | X) = E[\epsilon_i^2  | X] = \sigma^2$
  	- $E[\epsilon_i \epsilon_j | x] = 0$
 	- $\text{Cov}(\epsilon_i , \epsilon_j) = 0$ , uncorrelated
- 	- Autocorrelation happends when \epsilon_i , \epsilon_j are correlated
+ 	- Autocorrelation happends when $\epsilon_i , \epsilon_j$ are correlated
 9. **Normalilty** of error(residuals) distribution
 
 - Unbiased use first 4

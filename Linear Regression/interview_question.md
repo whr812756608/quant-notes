@@ -8,6 +8,8 @@
   - To get correct t-statistics after duplicating the dataset, you could adjust the degrees of freedom used in your calculations to reflect the true sample size.
     
 - If the variance of the error term is different for each dataset, can we get the correct beta? Can we get the correct t-stat? And if we cannot, how can we get the correct beta and t-stat?
+  -  Heteroscedasticity does not cause bias in the coefficient estimates (betas) themselves in an Ordinary Least Squares (OLS) regression. Therefore, even in the presence of heteroscedasticity, your betas would still be correct under OLS estimation.
+  -  However, heteroscedasticity does affect the standard errors of your coefficients. When heteroscedasticity is present, the standard errors from OLS are incorrect, leading to unreliable hypothesis tests (i.e., t-statistics, F-statistics) and confidence interv
   - Heteroscedasticity--GRACH
   - GLS, WLS
 

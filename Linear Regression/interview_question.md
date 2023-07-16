@@ -37,5 +37,8 @@
 - Do we include the intercept term in ridge/lasso regression? Why?
 
 
-#  F statistics and T-statistics
+#  F statistics and T-statistics and Chi-Square
 - How do you interpret F statistics?
+- How do you interpret T statistics?
+- How do you interpret Chi-Square?
+- What's p-value

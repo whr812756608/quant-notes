@@ -7,7 +7,8 @@
     - The effects of different independent variables on the expected value of the dependent variable are additive.
 3. Random sampling following linear relationship
 4. **Full Rank** or no/little **Muticolinearity** among x variables
-5. **Exogeneity** of x variables to errors (residuals)s: Zero condition mean
+	- $\hat{\beta} = (X^TX)^{-1}X^T Y$ 	
+6. **Exogeneity** of x variables to errors (residuals)s: Zero condition mean
 	- $E[\epsilon|x] = 0 $ 	 	
 7. **Homoscedasticity** constant variance of the errors (residuals)
 	- $\text{Var}(\epsilon | X) = E[\epsilon_i^2  | X] = \sigma^2$

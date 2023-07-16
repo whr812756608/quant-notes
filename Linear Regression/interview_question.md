@@ -17,7 +17,7 @@
 - x1 and x2 are uncorrelated and having zero mean. We calculate the regression coefficients y-x1 ~ b'2 * x2 and y-x2 ~ b'1 * x1. Also we calculate the regression coefficients using the regular way y ~ b1 * x1 and y ~ b2 * x2. How are the coefficients (b1, b2) related to the coefficients (b'1, b'2)? (2sigma)
 
 - Show OLS estimate is MLE under certain assumptions
-  - [Maximum Likelihood Estimation]
+  - [回字的四种写法——从线性回归到贝叶斯线性回归](https://zhuanlan.zhihu.com/p/86009986)
   - <img src= "baysian.png" alt="Figure" width="800" height="500">
 - OLS is BLUE assumtions
    - Guassian- Markov

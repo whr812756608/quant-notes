@@ -1,6 +1,7 @@
 # Machine learning
 - **Logistic Regression**
 - Sigmoid, probablity from 0-1
+  - $f(z) = \frac{1}{1+e^z}$ 
 - Deal with classfication problem
 - Logloss
 - Gradient decent to minmized logloss

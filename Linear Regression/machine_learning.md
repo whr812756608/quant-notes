@@ -1,4 +1,14 @@
 # Machine learning
+- **Logistic Regression**
+- Sigmoid, probablity from 0-1
+- Deal with classfication problem
+- Logloss
+- Gradient decent to minmized logloss
+- 需要记住sigmod 表达式， loss 和logloss 表达式
+- One VS Rest --> transfer to binomniol 
+- Softmax --> probability distrubtion on each catergorial, adding to 1
+- [对数几率回归算法](https://blog.csdn.net/sai_simon/article/details/122390597)
+  
 -**Explain the bias-variance trade-off in the context of Machine Learning and Regression models**
   - It refers to the relationship between the model's ability to capture the complexity of the data (variance) and its tendency to make systematic errors or assumptions (bias).
   - **Bias**: Bias measures how far off the predictions of a model are from the true values, on average, when trained on different datasets. High bias indicates that the model oversimplifies the underlying relationships in the data and may underfit. In such cases, the model may miss important patterns or exhibit systematic errors, resulting in poor performance.
@@ -29,12 +39,27 @@
   - Deep learning (Category embedding)
   - LSTM, Transformer, CNN automated feature
 
-
-
 - **How does Regularization help in a regression model**?
   - Overfitting prevention
   - Model complexity control
   - Feature selection and interpretation
+
+- **How to do data cleaning?**
+  - Filter
+  - Filling the NAN value (median, mean)
+  - Outlier remove(thershold)
+    
+-  **Feature demension too high**
+  - Missing value ratio: delete if too high
+  - Low Varicance Filter: the data distribution very uniform, now siginficant volatility, delete
+  - High Correlation:  delete one if two variable are very highly correlated
+  - PCA, SVD
+  - Null importance: shuffle label Y and find the importance
+  - LLE, ISOMAP, T-SNE: non linear
+- **Feature Selection**
+  - Filter: correlation
+  - Wrapper: target function; perfromance
+  - Embeddeding
 
 # Kmeans
 - **working principle**

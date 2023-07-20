@@ -140,6 +140,33 @@ check outliers/extreme values (are they valid)
 - LU Decomposition: $X\beta = LU\beta = Y \Rightarrow Ux = A, LA = Y$
 - SVD Decomposition $X = U \Sigma V^T$  and  $(X^TX)^{-1}X^T = V\Sigma^{-1}U^T$
 
+**Derivation of OLS Estimator Variance-Covariance Matrix:**
+
+Starting from the OLS estimator formula:
+
+$\hat{\beta} = (X^TX)^{-1}X^TY$
+
+Substituting the model equation $Y = Xβ + e$:
+
+$\hat{\beta} = \beta + (X^TX)^{-1}X^Te$
+
+Taking the variance of both sides:
+
+$Var(\hat{\beta} - \beta) = Var((X^TX)^{-1}X^Te)$
+
+Assuming uncorrelated and homoscedastic errors (Var(e) = σ^2I, where I is the identity matrix):
+
+$Var(\hat{\beta}) = (X^TX)^{-1}X^T Var(e) X (X^TX)^{-1}$
+
+Simplifying:
+
+$Var(\hat{\beta}) = σ^2 (X^TX)^{-1}$
+
+This is the formula for the variance-covariance matrix of the OLS estimator. The diagonal elements represent the variances of the individual parameter estimates, and the off-diagonal elements represent the covariances between different parameter estimates.
+
+Please note that this derivation assumes uncorrelated and homoscedastic errors. If these assumptions are violated, the actual variance of the OLS estimators may differ.
+
+
 **Iterative**
 Use loss/cost function
 Why choose OLS as cost function and why it's optimal (https://www.zhihu.com/question/24095027)

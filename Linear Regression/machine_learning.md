@@ -6,6 +6,31 @@
   - **The bias-variance trade-off **arises from the challenge of finding the right level of model complexity. Models with high complexity, such as those with many parameters or flexible structures, have the potential to capture intricate patterns in the data but are more prone to overfitting and high variance. On the other hand, models with low complexity, such as those with fewer parameters or simple structures, are less likely to overfit but may have higher bias and struggle to capture complex relationships.
   - The goal is to strike a balance between bias and variance by selecting an optimal level of model complexity. This can be achieved through techniques like **cross-validation, regularization, and model selection methods**. Cross-validation helps evaluate the model's performance on unseen data, enabling the identification of the sweet spot that minimizes both bias and variance.
 
+# Feature Engnieering
+- **Why we need to do Regularization on features?**
+  - Some algorithm, for example, linear regression or deep learning (batch normal), need to regularized the coefficient on same demension,making easy to compare.
+  - Decisio Tree don't need
+    
+- **Cross Features**
+  - Continue variable: Mutipilcation/ Dividsion 
+    - Length x width of a rectangel 
+  - Catergorialcal feature: using string slicing and combnation
+  - Groupby to calculate mean, max, min, std
+ 
+- **Eulercian distance, Manhatten distance, consine distance**
+  - Eulercian distance: square root
+  - Manhatten distance: |X1-X2| + |Y1-Y2|, citrystreet distance
+  - Consine distance: Cos(A,B) = A*B/ |A||B|
+  - 两个向量的夹角
+    
+- **How to deal with Category variabel**?
+  - one hot encoder
+  - Disecion tree don't need: (Catboss, LGBM)
+  - Deep learning (Category embedding)
+  - LSTM, Transformer, CNN automated feature
+
+
+
 - **How does Regularization help in a regression model**?
   - Overfitting prevention
   - Model complexity control
@@ -47,3 +72,14 @@
     - hyperparameter tuneing
     - less dropout
 - **bias-variance trade-off**
+
+# Cross Validation
+  - Simple validation
+    - divide by train and test
+  - K-Fold validation
+    - divided by K fold 
+  - Startified K-Fold
+    - based on label dividing to k fold
+  - Time serires split
+    - Time label leak
+    - first 3 year as training, last 1 year as test

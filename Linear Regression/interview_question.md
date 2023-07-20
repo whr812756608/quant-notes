@@ -100,3 +100,20 @@
 - How do you interpret T statistics?
 - How do you interpret Chi-Square?
 - What's p-value
+
+- **t-stats** (t-statistics): In statistical hypothesis testing, t-statistics measure the significance of an estimated parameter in relation to its standard error. It quantifies the difference between the estimated parameter and a hypothesized value, relative to the uncertainty in the estimation. A higher absolute t-statistic indicates a larger deviation from the hypothesized value and suggests a more significant relationship or effect.
+
+-**F-stats** (F-statistics): F-statistics are used in statistical tests, such as analysis of variance (ANOVA) or regression analysis, to assess the overall significance of a set of coefficients or the overall fit of a model. It compares the variability explained by the model (explained sum of squares) to the unexplained variability (residual sum of squares). A higher F-statistic indicates a better fit or more significant relationship.
+
+-**Chi-square** (χ²): Chi-square is a statistical test used to determine the association or independence between two categorical variables. It compares the observed frequencies in a contingency table with the frequencies expected under the assumption of independence. A higher chi-square value indicates a stronger association between the variables, while a lower value suggests independence.
+
+-**p-value**: The p-value is a measure of the evidence against a null hypothesis in statistical hypothesis testing. It represents the probability of obtaining a test statistic as extreme or more extreme than the observed result, assuming the null hypothesis is true. A smaller p-value indicates stronger evidence against the null hypothesis, suggesting that the observed result is unlikely to occur by chance. Typically, if the p-value is below a predetermined significance level (e.g., 0.05), the null hypothesis is rejected in favor of the alternative hypothesis.
+
+These statistical measures play crucial roles in hypothesis testing, model assessment, and determining the significance of relationships or effects in data analysis.
+
+
+
+
+
+
+

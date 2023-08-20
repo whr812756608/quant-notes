@@ -42,4 +42,12 @@ for i in MyRange(0, 5):
 - break:
     - Purpose: Exits the current loop prematurely, bypassing the remainder of its body.
     - Common Use: To exit a loop when a certain condition is met.
+    - ```python
+      for i in range(10):
+        if i == 5:
+            break
+        print(i)
+        # Output: 0 1 2 3 4
+      ```
+
 

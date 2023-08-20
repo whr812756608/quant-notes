@@ -33,4 +33,7 @@ for i in MyRange(0, 5):
 - Execution State: One of the most powerful aspects of yield is that it allows the function to "pause" its execution. When the generator's next() method is called, execution starts or resumes until the next yield is encountered, then it pauses again, saving all its state (like local variables).
 
 - Multiple Yields: A function can have multiple yield statements. Every time next() is called on the generator, execution resumes from where it was paused and continues until the next yield is encountered.
+
+- return: Ends the function's execution and returns a value to the caller.
+- yield: Produces a value for iteration but "pauses" the function's execution, allowing the function to later resume from where it left off.
  

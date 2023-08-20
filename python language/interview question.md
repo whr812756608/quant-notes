@@ -70,5 +70,20 @@ for i in MyRange(0, 5):
             print(i)
         # Output: 0 1 3 4
       ```
-
+# Garbage collection in Python
+- Reference Counting:
+    - Every object in Python has a reference count, which is the number of references pointing to it.
+    - When the reference count drops to zero, meaning no references are pointing to the object, memory occupied by the object can be reclaimed immediately.
+    - The major disadvantage of reference counting alone is that it cannot detect and collect cyclic references (e.g., two objects referring to each other).
+- Cyclic Garbage Collector:
+    - To address the limitation of reference counting, Python introduced a cyclic garbage collector. This component of the garbage collector detects cycles of references which are isolated from the rest of the program and cannot be reached.
+    - The cyclic garbage collector works using a generational approach. Objects are segregated into three different "generations":
+    - Generation 0: Newly created objects.
+    - Generation 1: Objects that survived one garbage collection cycle.
+    - Generation 2: Objects that survived more than one garbage collection cycle.
+-A garbage collection event (invoking the cyclic garbage collector) first examines objects in Generation 0.
+- If an object survives collection, it gets moved to Generation 1.
+- Later, a collection on Generation 1 moves survivors to Generation 2.
+- Collection events on Generation 0 happen more frequently than on Generation 1, and Generation 1 collections happen more frequently than Generation 2 collections.
+- This is based on the observation that newer objects are more likely to be garbage than older objects
 

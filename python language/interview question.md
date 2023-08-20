@@ -49,5 +49,15 @@ for i in MyRange(0, 5):
         print(i)
         # Output: 0 1 2 3 4
       ```
+- continue:
+    - Purpose: Skips the rest of the current iteration and jumps to the next iteration of the loop.
+    - Common Use: To avoid executing certain parts of the loop body for specific iterations.
+    - ```python
+      for i in range(5):
+        if i == 2:
+            continue
+      print(i)
+      #Output: 0 1 3 4
+      ```
 
 

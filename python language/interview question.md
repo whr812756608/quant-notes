@@ -36,4 +36,10 @@ for i in MyRange(0, 5):
 
 - **Return**: Ends the function's execution and returns a value to the caller.
 - **Yield**: Produces a value for iteration but "pauses" the function's execution, allowing the function to later resume from where it left off.
- 
+
+##  How does break, continue, and pass work?
+- break, continue, and pass are control flow statements in Python
+- break:
+    - Purpose: Exits the current loop prematurely, bypassing the remainder of its body.
+    - Common Use: To exit a loop when a certain condition is met.
+

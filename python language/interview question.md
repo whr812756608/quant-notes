@@ -59,5 +59,16 @@ for i in MyRange(0, 5):
       print(i)
       #Output: 0 1 3 4
       ```
+- pass:
+    - Purpose: Acts as a no-op (no operation). It does nothing and is a placeholder.
+    - Common Use: Useful as a placeholder where syntactically some code is required, but where no action is desired or where you haven't          decided what to implement yet
+    - ```python
+      for i in range(5):
+        if i == 2:
+            pass  # TODO: handle this case later
+        else:
+            print(i)
+        # Output: 0 1 3 4
+      ```
 
 

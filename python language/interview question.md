@@ -23,5 +23,9 @@ for i in MyRange(0, 5):
     print(i)
 ```
 
-##  yield 
-##  What are python iterators?
+##  What are python generator?
+- Generators in Python are a simple and powerful tool for creating iterators. Generators use the **yield** keyword to suspend execution temporarily and yield a value one at a time. This makes generators memory efficient as they don’t generate the entire sequence of values upfront but rather generate values on-demand.
+- use **next** to call generator
+  
+## yield
+ 

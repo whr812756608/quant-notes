@@ -10,7 +10,7 @@
 - Softmax --> probability distrubtion on each catergorial, adding to 1
 - [对数几率回归算法](https://blog.csdn.net/sai_simon/article/details/122390597)
   
-**Explain the bias-variance trade-off in the context of Machine Learning and Regression models**
+# Explain the bias-variance trade-off in the context of Machine Learning and Regression models**
   - It refers to the relationship between the model's ability to capture the complexity of the data (variance) and its tendency to make systematic errors or assumptions (bias).
   - **Bias**: Bias measures how far off the predictions of a model are from the true values, on average, when trained on different datasets. High bias indicates that the model oversimplifies the underlying relationships in the data and may underfit. In such cases, the model may miss important patterns or exhibit systematic errors, resulting in poor performance.
   - **Variance**: Variance quantifies the variability of model predictions when trained on different datasets. High variance indicates that the model is sensitive to the specific training data and captures noise or random fluctuations. This can lead to overfitting, where the model performs exceptionally well on the training data but fails to generalize to unseen data

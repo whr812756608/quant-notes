@@ -1,5 +1,6 @@
 # OLS
-- **For three random variables x_1, x_2, and y, we have obtained three sets of data X_1,X_2 and Y next, we will perform two different OLS (Ordinary Least Squares) regressions on these data. First, perform regression of y on X_1, then perform regression of the obtained residuals on \(X_2\), eventually obtaining the regression coefficient for X_2 as \beta_1 = 0.1. Now, we perform regression of \(y\) on both \(X_1\) and \(X_2\) simultaneously, obtaining the regression coefficient for X_2 as \beta_2. Find the range of values for \beta_2**
+- **For three random variables $x_1$, $x_2$, and $y$, we have obtained three sets of data $X_1$, $X_2$, and $Y$. Next, we will perform two different OLS (Ordinary Least Squares) regressions on these data. First, perform regression of $y$ on $X_1$, then perform regression of the obtained residuals on $X_2$, eventually obtaining the regression coefficient for $X_2$ as $\hat{\beta}_1 = 0.1$. Now, we perform regression of $y$ on both $X_1$ and $X_2$ simultaneously, obtaining the regression coefficient for $X_2$ as $\hat{\beta}_2$. Find the range of values for $\hat{\beta}_2$.**
+
 
 - **If we duplicate the dataset, how will the beta change? How will the t-stats change? And why? If we want to get the correct t-stats, what should we do?**
   - beta unchange $\hat{\beta} = (X^TX )^{-1}X^T Y$ 
